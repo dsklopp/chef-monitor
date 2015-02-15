@@ -17,5 +17,7 @@ version          "0.0.5"
 end
 
 depends "sensu"
+depends 'haproxy'
 depends "sudo"
+depends 'graphite'
 depends "uchiwa"
